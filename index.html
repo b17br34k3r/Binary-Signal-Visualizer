@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binary Signal Visualizer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body class="light-theme">
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <h1>Binary Signal Visualizer</h1>
+        <button id="theme-toggle" class="btn-toggle">🌙 Dark Mode</button>
+      </header>
+
+      <!-- Input Section -->
+      <section class="input-section">
+        <label for="binary-input">Enter Binary Sequence:</label>
+        <input
+          type="text"
+          id="binary-input"
+          placeholder="e.g., 10101"
+          maxlength="64"
+        />
+        <div id="input-error" class="error"></div>
+      </section>
+
+      <!-- Encoding Selection -->
+      <section class="encoding-section">
+        <h2>Select Encoding</h2>
+        <div class="encoding-buttons" id="encoding-buttons">
+          <button data-encoding="unipolar">Unipolar</button>
+          <button data-encoding="nrz-l">NRZ-L</button>
+          <button data-encoding="nrz-i">NRZ-I</button>
+          <button data-encoding="manchester">Manchester</button>
+          <button data-encoding="b8zs">B8ZS</button>
+          <button data-encoding="hdb3">HDB3</button>
+        </div>
+      </section>
+
+      <!-- Legend -->
+      <section class="legend-section">
+        <h3>Legend</h3>
+        <div id="legend">Select an encoding to see explanation.</div>
+      </section>
+
+      <!-- Chart -->
+      <section class="chart-section">
+        <canvas id="signal-chart"></canvas>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
