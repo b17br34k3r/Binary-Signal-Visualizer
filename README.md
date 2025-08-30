@@ -5,9 +5,8 @@
 
 ![Demo](image.png)
 ![Demo](image2.png)
-_(Screenshot: Light & Dark Mode)_
 
----
+
 
 ## 🔧 Features
 
@@ -20,6 +19,13 @@ _(Screenshot: Light & Dark Mode)_
 - 🔌 **No Setup Needed**: Runs directly in any browser — perfect for offline use
 
 ---
+## 🚀 Quick Start
+
+### Option 1: Use Online
+
+Simply open the [live demo](https://b17br34k3r.github.io/encoder-decoder/) in your browser and start using the tool immediately.
+
+### Option 2: Run Locally
 
 ## 🎯 Supported Encodings
 
