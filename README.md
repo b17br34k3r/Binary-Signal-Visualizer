@@ -23,7 +23,7 @@
 
 ### Option 1: Use Online
 
-Simply open the [live demo](https://b17br34k3r.github.io/encoder-decoder/) in your browser and start using the tool immediately.
+Simply open the [live demo](https://b17br34k3r.github.io/Binary-Signal-Visualizer/) in your browser and start using the tool immediately.
 
 ### Option 2: Run Locally
 
